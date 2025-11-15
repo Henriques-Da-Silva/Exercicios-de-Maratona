@@ -4,30 +4,23 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./css/style.css">
-        <title>Exercicio 26</title>
+        <title>Exercicio 36</title>
     </head>
 
     <body>
         <form action="">
-            <h2>Folha de Sálario - Professores</h2>
-            <p>(Digite 99999 para encerrar)</p>
+            <h3>Digite a quantidade de funcionários</h3>
             <div>
-                <input id="inputCode" type="number" placeholder="Código do Professor">
-                <select name="Sexo" id="sexo">
-                    <option value="M">M</option>
-                    <option value="F">F</option>
-                </select>
-                <input id="inputHoras" type="number" placeholder="Horas/aulas Dadas">
+                <input id="input" type="number" placeholder="Número de Funcionários">
+                <button onclick="Iniciar()" type="button">Submeter</button>
             </div>
-            <button onclick="Determinar()" type="button">Submeter</button>
+            <div>
+                <input id="inputNome" type="text" placeholder="Nome do Funcionário" disabled>
+                <input id="inputSalario" type="number" placeholder="Salário do Funcionário" disabled>
+                <button onclick="Submeter()" type="button" disabled>Submeter</button>
+            </div>
             
-            <div id="label">
-                <div id="titulos">
-                    <h4>Código</h4>
-                    <h4>Salário Bruto(R$)</h4>
-                    <h4>Salário líquido(R$)</h4>
-                </div>
-            </div>
+            <div id="label"></div>
         </form>
         <script src="./js/script.js"></script>
     </body>
