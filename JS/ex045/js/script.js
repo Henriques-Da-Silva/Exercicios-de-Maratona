@@ -1,23 +1,33 @@
-function Calcular(){
-    let num1 = document.getElementById('num1').value
-    let num2 = document.getElementById('num2').value
-    const operador = document.getElementById('operador').value
+let qPares = 0
+let qImpares = 0
 
-    if (num1 !== '' && num2 !== ''){
-        num1 = Number(num1)
-        num2 = Number(num2)
+function Submeter() {
+    const input = document.getElementById('num1')
+    const label = document.getElementById('label')
+    const valor = Number(input.value)
 
-        if (operador == 'soma'){
-            document.getElementById('label').innerHTML = `Resultado = ${num1+num2}`
-        } else if (operador == 'subt'){
-            document.getElementById('label').innerHTML = `Resultado = ${num1-num2}`
-        } else if (operador == 'multi'){
-            document.getElementById('label').innerHTML = `Resultado = ${num1*num2}`
-        } else if (operador == 'divi'){
-            if (num2 == 0){alert('Erro: Divisão por zero!')}
-            else{
-            document.getElementById('label').innerHTML = `Resultado = ${num1/num2}`
-            }
+    if (input.value === "") {
+        label.innerHTML = '<span style="color:red;">Digite um número válido!</span>'
+        return
+    }
+
+    if (valor === 9999) {
+        if (qPares === 0 && qImpares === 0) {
+            label.innerHTML = '<span style="color:red;">Nenhum número válido foi digitado.</span>'
+        } else {
+            label.innerHTML = `<span style="color:green; font-weight:bold;">Pares = ${qPares}</span> <span style="color:green; font-weight:bold;">Impares = ${qImpares}</span>`
         }
-    } else{alert('Preencha todos os Campos.')}
+        input.value = ""
+        input.disabled = true
+        return
+    }
+
+    if (valor % 2 === 0) {
+        qPares++
+    } else {
+        qImpares++
+    }
+    
+    input.value = ""
+    input.focus()
 }

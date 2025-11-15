@@ -1,17 +1,19 @@
-function Calcular(){
-    let num1 = document.getElementById('num1').value
-    let num2 = document.getElementById('num2').value
-    let num3 = document.getElementById('num3').value
+function Calcular() {
+    const n1 = parseInt(document.getElementById('num1').value)
+    const n2 = parseInt(document.getElementById('num2').value)
+    const label = document.getElementById('label')
 
-    if (num1 !== '' && num2 !== '' && num3 !== ''){
-        a = Number(num1)
-        b = Number(num2)
-        c = Number(num3)
+    if (isNaN(n1) || isNaN(n2) || n1 < 0 || n2 <= 0) {
+        label.innerHTML = `<span style="color:red">Digite apenas inteiros positivos (e N2 não pode ser zero).</span>`
+        return }
 
-        const lista = [a, b, c]
-        lista.sort((a, b) => b - a)
+    let quociente = 0
+    let resto = n1
 
-        document.getElementById('label').innerHTML = `<p>Maior: ${lista[0]} <br> Intermediário: ${lista[1]} <br> Menor: ${lista[2]} </p>`
+    while (resto >= n2) {
+        resto = resto - n2
+        quociente++
+    }
 
-    } else{alert('Preencha todos os Campos.')}
+    label.innerHTML = `<p>Quociente: <strong>${quociente}</strong></p><p>Resto: <strong>${resto}</strong></p>`
 }

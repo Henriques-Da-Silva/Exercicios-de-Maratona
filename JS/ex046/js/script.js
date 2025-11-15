@@ -1,11 +1,9 @@
- function Somar(){
-    let numeros = document.getElementById('input').value
-    const lista_numeros = numeros.split('')
-    let soma = 0
+let soma = 0
+let x = 0
 
-    for (numero of lista_numeros){
-        soma += Number(numero)
-    }
+do{
+    soma += x
+    x++
+} while(x < 11)
 
-    document.getElementById('label').innerHTML = `<p>Resultado: ${soma} </p>`
-}
+document.getElementById("label").innerText = `A soma é ${soma}`

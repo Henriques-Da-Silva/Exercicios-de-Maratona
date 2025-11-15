@@ -1,21 +1,27 @@
 <!DOCTYPE html>
-   <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./css/style.css">
-        <title>Exercicio 33</title>
-    </head>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 33</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <form action="">
+        <h1>Calculadora de Módulos</h1>
+        
+        <p id="variacao">Deseja qual variação do código? (1, 3 ou 4):</p>
+        <div id="input-div">
+            <select id="opcao">
+                <option value="1">Variação 1 - 10 cálculos</option>
+                <option value="3">Variação 3 - 100 cálculos</option>
+                <option value="4">Variação 4 - N cálculos</option>
+            </select>
+            <button id="btn" type="button" onclick="Determinar()">Submeter</button>
+        </div>
+        <div class="label" id="label"></div>
+    </form>
 
-    <body>
-        <form action="">
-            <h3>Digite o tamanho da base do triângulo: </h3>
-            <div>
-                <input id="input" type="number">
-                <button onclick="Criar()" type="button">Criar</button>
-            </div>
-            <div id="label"></div>
-        </form>
-        <script src="./js/script.js"></script>
-    </body>
-   </html> 
+    <script src="./js/script.js"></script>
+</body>
+</html>

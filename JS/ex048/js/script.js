@@ -1,13 +1,11 @@
-for (let num = 1000; num <= 9999; num++){
-    let numero = String(num);
+const resultado = document.getElementById('label')
 
-    const num1 = Number(numero.slice(0, 2));
-    const num2 = Number(numero.slice(2));
+let termo = 3
+let soma = 0
 
-    const soma = num1 + num2;
-    const resultado = Math.pow(soma, 2);
-    if (resultado == num)
-    {
-        document.getElementById('label').innerHTML += `<p>${num}</p>`;
-    }
+while (termo <= 6561) {
+    soma += termo
+    termo *= 3
 }
+
+resultado.innerHTML += `<h3>Soma total = ${soma}</h3>`
