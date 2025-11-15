@@ -4,17 +4,24 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./css/style.css">
-        <title>Exercicio 9</title>
+        <title>Exercicio 49</title>
     </head>
 
     <body>
         <form action="">
-            <h1>Texte de Reflexos</h1>
-            <h2 id="text"></h2>
             <div>
-                <input id="input" type="number" placeholder="Digite o número aqui">
-                <button onclick="Calcular()" type="button">Submeter</button>
+                <h3>Pessoa 1</h3>
+                <input type="text" id="Nome1" placeholder="Digite o nome aqui">
+                <input id="Peso1" type="number" placeholder="Digite o peso aqui" min="0"">
+                <input type="number" id="Altura1" placeholder="Digite a altura aqui" min="0" step="0.01">
             </div>
+            <div>
+                <h3>Pessoa 2</h3>
+                <input type="text" id="Nome2" placeholder="Digite o nome aqui">
+                <input id="Peso2" type="number" placeholder="Digite o peso aqui" min="0"">
+                <input type="number" id="Altura2" placeholder="Digite a altura aqui" min="0" step="0.01">
+            </div>
+            <button onclick="Determinar()" type="button">Submeter</button>
             <div id="label"></div>
         </form>
 

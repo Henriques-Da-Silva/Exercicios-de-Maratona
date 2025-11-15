@@ -1,24 +1,40 @@
-var inicio = 0
-var numero = 0
-let text = document.getElementById('text')
+function Determinar() {
+    const nome1 = document.getElementById('Nome1').value
+    const peso1 = parseFloat(document.getElementById('Peso1').value)
+    const altura1 = parseFloat(document.getElementById('Altura1').value)
 
-text.textContent = 'Espere...'
+    const nome2 = document.getElementById('Nome2').value
+    const peso2 = parseFloat(document.getElementById('Peso2').value)
+    const altura2 = parseFloat(document.getElementById('Altura2').value)
 
-const tempo_aleatorio = Math.floor(Math.random() * 4000) + 2000
+    const resultado = document.getElementById('label')
 
-setTimeout(() => {
-    numero = Math.floor(Math.random() * 10) + 1
-    text.textContent = `Agora! Número: ${numero}`
-    inicio = new Date().getSeconds()
-}, tempo_aleatorio)
-
-function Calcular(){
-    let number = document.getElementById('input').value
-    let tempo = (new Date().getSeconds()) - inicio
-   
-    if (numero === Number(number)){
-        document.getElementById('label').innerHTML = `<p>Acertou o número🥳<br> Tempo: ${tempo} segundos</p>`
-    } else{
-        document.getElementById('label').innerHTML = `<p>Número Errado!</p>`
+    if (!nome1 || !nome2 || isNaN(peso1) || isNaN(peso2) || isNaN(altura1) || isNaN(altura2)) {
+        resultado.innerHTML = `<span style="color:red;">Preencha todos os campos corretamente.</span>`
+        return
     }
+
+    let pessoaMaisPesada = ""
+    let maiorPeso = 0
+
+    if (peso1 > peso2) {
+        pessoaMaisPesada = nome1
+        maiorPeso = peso1
+    } else {
+        pessoaMaisPesada = nome2
+        maiorPeso = peso2
+    }
+
+    let pessoaMaisAlta = ""
+    let maiorAltura = 0
+
+    if (altura1 > altura2) {
+        pessoaMaisAlta = nome1
+        maiorAltura = altura1
+    } else {
+        pessoaMaisAlta = nome2
+        maiorAltura = altura2
+    }
+
+    resultado.innerHTML = `<p><strong>Mais pesado(a):</strong> ${pessoaMaisPesada} — ${maiorPeso} kg</p><p><strong>Mais alto(a):</strong> ${pessoaMaisAlta} — ${maiorAltura} m</p>`
 }
