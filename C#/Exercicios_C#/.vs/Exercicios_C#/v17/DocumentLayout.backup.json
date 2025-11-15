@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\POUL MACK\\OneDrive\\Documentos\\2025-26\\I\\TLP\\Tarefas\\Maratona\\C#\\Exercicios_C#\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D234783F-31E6-4697-87BB-17CBE359E74C}|Exercicios_C#.csproj|C:\\Users\\POUL MACK\\OneDrive\\Documentos\\2025-26\\I\\TLP\\Tarefas\\Maratona\\C#\\Exercicios_C#\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D234783F-31E6-4697-87BB-17CBE359E74C}|Exercicios_C#.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D234783F-31E6-4697-87BB-17CBE359E74C}|Exercicios_C#.csproj|c:\\users\\poul mack\\onedrive\\documentos\\2025-26\\i\\tlp\\tarefas\\maratona\\c#\\exercicios_c#\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D234783F-31E6-4697-87BB-17CBE359E74C}|Exercicios_C#.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D234783F-31E6-4697-87BB-17CBE359E74C}|Exercicios_C#.csproj|c:\\users\\poul mack\\onedrive\\documentos\\2025-26\\i\\tlp\\tarefas\\maratona\\c#\\exercicios_c#\\form7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D234783F-31E6-4697-87BB-17CBE359E74C}|Exercicios_C#.csproj|solutionrelative:form7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D234783F-31E6-4697-87BB-17CBE359E74C}|Exercicios_C#.csproj|c:\\users\\poul mack\\onedrive\\documentos\\2025-26\\i\\tlp\\tarefas\\maratona\\c#\\exercicios_c#\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D234783F-31E6-4697-87BB-17CBE359E74C}|Exercicios_C#.csproj|solutionrelative:form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\POUL MACK\\OneDrive\\Documentos\\2025-26\\I\\TLP\\Tarefas\\Maratona\\C#\\Exercicios_C#\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\POUL MACK\\OneDrive\\Documentos\\2025-26\\I\\TLP\\Tarefas\\Maratona\\C#\\Exercicios_C#\\Form1.cs [Projeto]",
+              "RelativeToolTip": "Form1.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T10:49:12.569Z",
+              "IsPinned": true,
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\POUL MACK\\OneDrive\\Documentos\\2025-26\\I\\TLP\\Tarefas\\Maratona\\C#\\Exercicios_C#\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\POUL MACK\\OneDrive\\Documentos\\2025-26\\I\\TLP\\Tarefas\\Maratona\\C#\\Exercicios_C#\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAGQBAAAAAAAAAAAkwHIBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T10:17:18.78Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form7.cs",
+              "DocumentMoniker": "C:\\Users\\POUL MACK\\OneDrive\\Documentos\\2025-26\\I\\TLP\\Tarefas\\Maratona\\C#\\Exercicios_C#\\Form7.cs",
+              "RelativeDocumentMoniker": "Form7.cs",
+              "ToolTip": "C:\\Users\\POUL MACK\\OneDrive\\Documentos\\2025-26\\I\\TLP\\Tarefas\\Maratona\\C#\\Exercicios_C#\\Form7.cs",
+              "RelativeToolTip": "Form7.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA1wBkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T19:32:06.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form5.cs",
+              "DocumentMoniker": "C:\\Users\\POUL MACK\\OneDrive\\Documentos\\2025-26\\I\\TLP\\Tarefas\\Maratona\\C#\\Exercicios_C#\\Form5.cs",
+              "RelativeDocumentMoniker": "Form5.cs",
+              "ToolTip": "C:\\Users\\POUL MACK\\OneDrive\\Documentos\\2025-26\\I\\TLP\\Tarefas\\Maratona\\C#\\Exercicios_C#\\Form5.cs",
+              "RelativeToolTip": "Form5.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAiwEQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T13:52:32.824Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

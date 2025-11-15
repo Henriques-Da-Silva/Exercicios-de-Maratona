@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+   <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Exercicio 26</title>
+    </head>
+
+    <body>
+        <form action="">
+            <h2>Folha de Sálario - Professores</h2>
+            <p>(Digite 99999 para encerrar)</p>
+            <div>
+                <input id="inputCode" type="number" placeholder="Código do Professor">
+                <select name="Sexo" id="sexo">
+                    <option value="M">M</option>
+                    <option value="F">F</option>
+                </select>
+                <input id="inputHoras" type="number" placeholder="Horas/aulas Dadas">
+            </div>
+            <button onclick="Determinar()" type="button">Submeter</button>
+            
+            <div id="label">
+                <div id="titulos">
+                    <h4>Código</h4>
+                    <h4>Salário Bruto(R$)</h4>
+                    <h4>Salário líquido(R$)</h4>
+                </div>
+            </div>
+        </form>
+        <script src="./js/script.js"></script>
+    </body>
+   </html>

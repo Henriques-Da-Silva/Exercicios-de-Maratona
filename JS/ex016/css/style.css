@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b7d4ff;
+    height: 100vh;
+    width: 100vw;
+    font: 16px verdana;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px;
+    gap: 10px;
+    box-shadow: 2px 2px 2px #524f53;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+#label{
+    background-color: #b7d9ff;
+    padding: 10px;
+    font: 18px verdana;
+    border-radius: 10px;
+    width: 470px;
+    text-align: center;
+}
